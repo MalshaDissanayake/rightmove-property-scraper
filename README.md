@@ -125,7 +125,7 @@ These subtasks involve creating a robust web scraping pipeline to extract high, 
 
 Each spider will generate a JSON file named using the convention `rmpipeline_<POSTCODE>_<EXTRACTED_DATE>.json`.
 
-## Uploading Output Files to S3
+## Subtask 5 - Uploading Output Files to S3
 
 ### Description
 The script `upload_outputs.py` is used to upload the output files to an S3 bucket.
