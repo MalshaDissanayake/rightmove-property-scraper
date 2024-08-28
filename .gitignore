@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Poetry
+poetry.lock
+
+# Exclude compiled Python files (__pycache__ and .pyc files)
+**/__pycache__/
+**/*.pyc
+
+# Exclude binary files
+rightmove_scraper/rightmove_scraper/__init__.py
+rightmove_scraper/rightmove_scraper/spiders/__init__.py
+rm_scraper/rm_scraper/__init__.py
+rm_scraper/rm_scraper/spiders/__init__.py
